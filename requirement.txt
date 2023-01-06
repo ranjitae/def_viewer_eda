@@ -1,0 +1,6 @@
+npm install --force react-scripts
+npm i --force react-router-dom
+npm i --force axios
+npm install --force react-icons --save
+npm i --force react-simple-chatbot
+npm i --force styled-components
