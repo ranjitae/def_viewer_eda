@@ -1,0 +1,97 @@
+{
+    "design": "fulladdder",
+    "number_of_pins": 10,
+    "pins": [
+        { 
+            "id":0,
+            "pin_name": " A ",
+            "net_name": " NET A ",
+            "direction": "INPUT",
+            "is_clk": 0,
+            "x": "0",
+            "y": "4875"
+        },
+        {
+            "id":1,
+            "pin_name": " B ",
+            "net_name": " NET B ",
+            "direction": "INPUT",
+            "is_clk": 0,
+            "x": "0",
+            "y": "1275"
+        },
+        {
+            "id":2,
+            "pin_name": " C ",
+            "net_name": " NET C ",
+            "direction": "INPUT",
+            "is_clk": 0,
+            "x": "0",
+            "y": "2175"
+        },
+        {
+            "id":3,
+            "pin_name": " Sum ",
+            "net_name": " NET Sum ",
+            "direction": "OUTPUT",
+            "is_clk": 0,
+            "x": "6380",
+            "y": "475"
+        },
+        {
+            "id":4,
+            "pin_name": " Carry ",
+            "net_name": " NET Carry ",
+            "direction": "OUTPUT",
+            "is_clk": 0,
+            "x": "5775",
+            "y": "0"
+        },
+        {
+            "id":5,
+            "pin_name": " Clock ",
+            "net_name": " NET Clock ",
+            "direction": "INPUT",
+            "is_clk": 0,
+            "x": "0",
+            "y": "3275"
+        },
+        {
+            "id":6,
+            "pin_name": " Scan_clk ",
+            "net_name": " NET Scan_clk ",
+            "direction": "INPUT",
+            "is_clk": 0,
+            "x": "0",
+            "y": "2875"
+
+        },
+        {
+            "id":7,
+            "pin_name": " Scan_en ",
+            "net_name": " NET Scan_en ",
+            "direction": "INPUT",
+            "is_clk": 0,
+            "x": "0",
+            "y": "3075"
+        },
+        {
+            "id":8,
+            "pin_name": " cg_en ",
+            "net_name": " NET cg_en ",
+            "direction": "INPUT",
+            "is_clk": 0,
+            "x": "475",
+            "y": "6020"
+        },
+        {
+            "id":9,
+            "pin_name": " gen_clk_mux ",
+            "net_name": " NET gen_clk_mux ",
+            "direction": "INPUT",
+            "is_clk": 0,
+            "x": "0",
+            "y": "1475"
+        }
+    ]
+}

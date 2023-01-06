@@ -1,0 +1,58 @@
+
+  /* The unordered list holding the data points, no list styling and no spacing */
+
+
+  .datapo1{
+    position: absolute;
+    left: 2170mm;
+    border-top: 50mm solid white;
+    width: 4692.43mm;
+    bottom: 1350mm;
+    transform-origin: bottom left;
+    transform: rotateZ(-73.33deg);
+  }
+  .datapo2{
+    position: absolute;
+    left: 3500mm;
+    border-top: 50mm solid white;
+    width: 1330.56mm;
+    bottom: 5850mm;
+    transform-origin: bottom left;
+    transform: rotateZ(42.53deg);
+  }
+  .datapo3{
+    position: absolute;
+    left: 4480mm;
+    border-top: 50mm solid white;
+    width: 2772.52mm;
+    bottom: 4950mm;
+    transform-origin: bottom left;
+    transform: rotateZ(76.65deg);
+  }
+  
+  /* Each point on the chart, each a 12px circle with a light border */
+  .dataPoint {
+    background-color: white;
+    border: 5px solid lightblue;
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+  }
+  #one{
+    border-left: 2mm solid white;
+    height: 4150mm;
+  }
+  #two{
+    border-top: 2mm solid white;
+    width: 1100mm;
+  }
+
+  #three{
+    border-top: 2mm solid white;
+    width: 1300mm;
+  }
+
+  #five{
+    border-left: 2mm solid white;
+    height: 3300mm;
+  }

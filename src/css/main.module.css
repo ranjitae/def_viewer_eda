@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  overflow: hidden;
+}
+
+#diarea {
+  border: 1px solid;
+  width: 630mm;
+  height: 672mm;
+  position: relative;
+  background-color: white;
+  border: 2px solid black;
+  transform-origin: 0px 0px;
+  transform: scale(0.5) translate(0px, 0px);
+  cursor: grab;
+  /* zoom: 0.4; */
+}
+
+.box{
+  border: 2px solid black;
+  width: 90vw;
+  height: 80vh;
+}
+
+#A1,
+#A2,
+#A3,
+#A4,
+#A5,
+#A6,
+#A7,
+#A8,
+#A9,
+#A10,
+#A11,
+#A12,
+#A13,
+#A14,
+#A15,
+#A16,
+#A17 {
+  border: 1px solid violet;
+  background-color: transparent;
+  color: white;
+}
+
+#A1 {
+  /* Comp_0 Mux */
+  position: absolute;
+  bottom: 270mm;
+  left: 0mm;
+  width: 140mm;
+  height: 90mm;
+}
+
+#A2 {
+  /* Comp_1 Gate */
+  position: absolute;
+  bottom: 540mm;
+  left: 70mm;
+  width: 560mm;
+  height: 90mm;
+}
+
+#A3 {
+  /* Comp_2 CLKB1 */
+  position: absolute;
+  bottom: 540mm;
+  left: 70mm;
+  width: 70mm;
+  height: 90mm;
+  text-align: center;
+  padding: 50px;
+}
+
+#A4 {
+  /* Comp_3 REG1 */
+  position: absolute;
+  bottom: 450mm;
+  left: 14mm;
+  width: 322mm;
+  height: 90mm;
+}
+
+#A5 {
+  /* Comp_4 REG2 */
+  position: absolute;
+  bottom: 0mm;
+  left: 56mm;
+  width: 322mm;
+  height: 90mm;
+}
+
+#A6 {
+  /* Comp_5 REG3 */
+  position: absolute;
+  bottom: 180mm;
+  left: 28mm;
+  width: 32.2mm;
+  height: 90mm;
+}
+
+#A7 {
+  /* Comp_6 G1 */
+  position: absolute;
+  bottom: 540mm;
+  left: 294mm;
+  width: 112mm;
+  height: 90mm;
+}
+
+#A8 {
+  /* Comp_7 G2 */
+  position: absolute;
+  bottom: 450mm;
+  left: 392mm;
+  width: 112mm;
+  height: 90mm;
+}
+
+#A9 {
+  /* Comp_8 G3 */
+  position: absolute;
+  bottom: 270mm;
+  left: 548mm;
+  width: 56mm;
+  height: 90mm;
+}
+#A10 {
+  /* Comp_8 G4 */
+  position: absolute;
+  bottom: 540mm;
+  left: 434mm;
+  width: 56mm;
+  height: 90mm;
+}
+#A11 {
+  /* Comp_8 G5 */
+  position: absolute;
+  bottom: 450mm;
+  left: 492mm;
+  width: 56mm;
+  height: 90mm;
+}
+#A12 {
+  /* Comp_8 G5 */
+  position: absolute;
+  bottom: 540mm;
+  left: 560mm;
+  width: 56mm;
+  height: 90mm;
+}
+#A13 {
+  /* Comp_8 G5 */
+  position: absolute;
+  bottom: 90mm;
+  left: 476mm;
+  width: 56mm;
+  height: 90mm;
+}
+#A14 {
+  /* Comp_8 REG4 */
+  position: absolute;
+  color: #fff;
+  bottom: 360mm;
+  left: 292mm;
+  width: 322mm;
+  height: 90mm;
+}
+
+#A15 {
+  /* Comp_8 REG5 */
+  position: absolute;
+  bottom: 180mm;
+  left: 305mm;
+  width: 323mm;
+  height: 90mm;
+}
+
+#A16 {
+  /* Comp_8 G5 */
+  position: absolute;
+  bottom: 0mm;
+  left: 482mm;
+  width: 70mm;
+  height: 90mm;
+}
+#A17 {
+  /* Comp_8 G5 */
+  position: absolute;
+  bottom: 0mm;
+  left: 552mm;
+  width: 70mm;
+  height: 90mm;
+}
+
+
+
+
