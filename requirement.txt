@@ -4,3 +4,4 @@ npm i --force axios
 npm install --force react-icons --save
 npm i --force react-simple-chatbot
 npm i --force styled-components
+npm i --force react-zoom-pan-pinch
