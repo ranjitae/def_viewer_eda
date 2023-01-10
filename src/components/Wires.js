@@ -6,10 +6,10 @@ const Wires = () => {
 
   const [wire, setWire] = useState(wires.nets[0].route);
 
-
+  
 
   return (
-    <>
+    <>  
           <React.Fragment>
 
             {wire.map((item, index) => {

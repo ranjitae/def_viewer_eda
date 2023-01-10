@@ -1,30 +1,34 @@
-import React from 'react'
+import React, {useState} from 'react'
 import pin from '../data/DummyPin.json'
 
 const Pins = () => {
 
-    // pin.pins.map(val => {
-    //     // console.log(val)
-    //     val.Route.map(val1 => {
-    //         // console.log(val1.x1 -val1.x0)
-    //         // console.log(val1.x1)
-    //         // console.log(val1.y1 - val1.y0 )
-    //         // console.log(val1.y1)
-    //     })
-    // })
+    const [data, setData] = useState(pin.components)
+        data[0].pins.map(item =>{
+            console.log(item)
+        })
+        // val.Route.map(val1 => {
+        //     console.log(val1.x0)
+        //     // console.log(val1.x1)
+        //     // console.log(val1.y1 - val1.y0 )
+        //     // console.log(val1.y1)
+        // })
+
 
     return (
         <>
 
-            <React.Fragment>
+            {/* <React.Fragment>
                 <div style={{
-                    position: 'absolute', bottom: "4500.400mm",
-                    left: "5320.280mm",
-                    width: "0.3499999999985448mm", background: 'palegreen', height: "0.7000000000061846mm"
+                    position: 'absolute', bottom: "3455.5mm",
+                    left: "775.0mm",
+                    width: "50.0mm", background: 'palegreen', height: "610.0mm"
                 }}></div>
-            </React.Fragment>
-            {/* {
-                pin.pins.map((val, index) => {
+
+                
+            </React.Fragment> */}
+            {
+                data[0].pins.map((val, index) => {
                     return (
                         <React.Fragment key={index}>
                             {
@@ -33,7 +37,7 @@ const Pins = () => {
                                         <div key={val1} style={{
                                             position: 'absolute', bottom: `${pinitems.y0}mm`,
                                             left: `${pinitems.x0}mm`,
-                                            width: `calc(${pinitems.x0}mm - ${pinitems.x1}mm)`, background: 'palegreen', height: `calc(${pinitems.y0}mm - ${pinitems.y1}mm)`
+                                            width: `${pinitems.x1}mm`, background: 'palegreen', height: `${pinitems.y1}mm`
                                         }}></div>
                                     )
                                 })
@@ -41,7 +45,7 @@ const Pins = () => {
                         </React.Fragment>
                     )
                 })
-            } */}
+            }
         </>
     )
 }

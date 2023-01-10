@@ -84,6 +84,10 @@ const Draw = ({ zooming, setOpen, setButtonPopup }) => {
   const [pinShape, setPinShape] = useState(true);
   const [wireShape, setWireShape] = useState(true);
   const [portShape, setPortShape] = useState(true);
+  const [pathValue, setPathValue] = useState({
+    "Path": "Path_0",
+    "Path_check": true
+  })
   // /////////////////////////////////////////////////////////////
   // ****** Zoom in functionality *******
   const zoom = useRef();
@@ -109,6 +113,9 @@ const Draw = ({ zooming, setOpen, setButtonPopup }) => {
     console.log("hi", popUp);
     setButtonPopup(popUp);
   };
+  const getDataFromPath = (message) => {
+    setPathValue(message)
+  }
   // *************************************************
   return (
     <>
@@ -123,7 +130,7 @@ const Draw = ({ zooming, setOpen, setButtonPopup }) => {
             doubleClick={{
               disabled: "false",
             }}
-            initialScale ={1}
+            initialScale={1}
             minScale={1}
             maxScale={50}
           >
@@ -163,7 +170,7 @@ const Draw = ({ zooming, setOpen, setButtonPopup }) => {
                     ) : (
                       ""
                     )}
-                    {portShape ? (
+                    {/* {portShape ? (
                       <Pins
                         data={ports}
                         // cellsData={cells}
@@ -172,9 +179,10 @@ const Draw = ({ zooming, setOpen, setButtonPopup }) => {
                       />
                     ) : (
                       ""
-                    )}
+                    )} */}
 
-                    <Test />
+                    <Test pathValue={pathValue} />
+
 
                   </div>
                 </div>
@@ -258,7 +266,7 @@ const Draw = ({ zooming, setOpen, setButtonPopup }) => {
           </div>
           <div className={draw.pathItems}>
             <ul>
-              <Path />
+              <Path getDataFromPath={getDataFromPath} />
             </ul>
           </div>
         </div>
